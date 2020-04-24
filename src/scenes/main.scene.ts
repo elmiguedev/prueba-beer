@@ -25,7 +25,7 @@ export default class MainScene extends Phaser.Scene {
     init() {
         this.tecla = this.input.keyboard.addKey("RIGHT");
 
-        this.add.text(20,20,"HOLA MUNDO yay");
+        this.add.text(20,20,"HOLA BEER JS yay");
         this.mono = new Monkey(this,100,30);
 
     }
